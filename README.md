@@ -1,9 +1,12 @@
 # domestic-ASD-dataset-details
 
-This page reports additional information on how the dataset was built in Alessandro Ilic Mezza, Giulio Zanetti, Maximo Cobos, and Fabio Antonacci, "Zero-Shot Anomalous Sound Detection in Domestic Environments Using Large-Scale Pretrained Audio Pattern Recognition Models". The dataset contains sound events gathered from two different existing datasets. Acoustic anomalies are taken from the [TUT Rare Sound Events Development](https://zenodo.org/record/401395#.Y4UdDX3MKMo) dataset, and belong to three classes: “Baby cry”, “Glass break,” and “Gunshot.” As non-anomalous events, we select three classes from the Domestic Environment Sound Event Detection Dataset ([DESED](https://zenodo.org/record/6026841#.Y4UxjX3MKMo)), namely “Dog,” “Alarm bell ringing,” and “Electric shaver/Toothbrush.”
-In particular:
+This page reports additional information on how the dataset was built in the article: 
+> Alessandro Ilic Mezza, Giulio Zanetti, Maximo Cobos, and Fabio Antonacci, "Zero-Shot Anomalous Sound Detection in Domestic Environments Using Large-Scale Pretrained Audio Pattern Recognition Models". 
+
+The dataset contains sound events gathered from two different existing datasets. Acoustic anomalies are taken from the [TUT Rare Sound Events Development](https://zenodo.org/record/401395#.Y4UdDX3MKMo) dataset, and belong to three classes: “Baby cry”, “Glass break,” and “Gunshot.” As non-anomalous events, we select three classes from the Domestic Environment Sound Event Detection Dataset ([DESED](https://zenodo.org/record/6026841#.Y4UxjX3MKMo)), namely “Dog,” “Alarm bell ringing,” and “Electric shaver/Toothbrush.”
 
 ## TUT Rare Sound Events Development
+
 The TUT Rare Sound Events Development dataset contains recordings gathered from [Freesound](https://freesound.org/) in the form of wav files, the name of which corresponds with their unique Freesound ID. We split the files using the processing function `freesound_files_into_event_wise_files` [provided](https://github.com/TUT-ARG/TUT_Rare_sound_events_mixture_synthesizer) by the authors, obtaining several wav files corresponding to single sound events.
 
 In **Table 1.a**, we report a list of all the files that were discarded from the TUT Rare Sound Events Development dataset for the creation of the dataset described in the aricle;
