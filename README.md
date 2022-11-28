@@ -5,6 +5,10 @@ This page reports additional information on how the dataset was built in the art
 
 The dataset contains sound events gathered from two different existing datasets. Acoustic anomalies are taken from the [TUT Rare Sound Events Development](https://zenodo.org/record/401395#.Y4UdDX3MKMo) dataset, and belong to three classes: “Baby cry”, “Glass break,” and “Gunshot.” As non-anomalous events, we select three classes from the Domestic Environment Sound Event Detection Dataset ([DESED](https://zenodo.org/record/6026841#.Y4UxjX3MKMo)), namely “Dog,” “Alarm bell ringing,” and “Electric shaver/Toothbrush.”
 
+## CSV files
+
+This repository also contains CSV files corresponding to the tables described above. The file discarded_files.csv contains class names on the first column and the names of discarded files on the second column, while examples.csv contains class names on the first column and the names of selected anomalies/events on the second coolumn.
+
 ## TUT Rare Sound Events Development
 
 The TUT Rare Sound Events Development dataset contains recordings gathered from [Freesound](https://freesound.org/) in the form of wav files, the name of which corresponds with their unique Freesound ID. We split the files using the processing function `freesound_files_into_event_wise_files` [provided](https://github.com/TUT-ARG/TUT_Rare_sound_events_mixture_synthesizer) by the authors, obtaining several wav files corresponding to single sound events.
