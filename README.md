@@ -32,7 +32,7 @@ We selected three classes of "foreground" events from the DESED dataset and we u
 
 In **Table 2.a**, we report a list of all the files that were used as registered non-anomalous events to test the memory-based anomalous sound detection methods in [1].
 
-In **Table 2.b**, we report a list of all the files that were discarded from the DESED dataset for the creation of the dataset described in [1].
+In **Table 2.b**, we report a list of all the files that were discarded from DESED for the creation of the dataset described in [1].
 
 ### Table 2.a
 
