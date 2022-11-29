@@ -7,7 +7,7 @@ The dataset contains sound events gathered from two different existing datasets.
 
 ## TUT Rare Sound Events Development
 
-The TUT Rare Sound Events Development dataset contains recordings gathered from [Freesound](https://freesound.org/) in the form of wav files, the name of which corresponds with their unique Freesound ID. We split the files using the processing function `freesound_files_into_event_wise_files` provided by the authors ([here](https://github.com/TUT-ARG/TUT_Rare_sound_events_mixture_synthesizer)), thus obtaining several wav files corresponding to isolated sound events.
+The TUT Rare Sound Events Development dataset contains recordings gathered from [Freesound](https://freesound.org/) in the form of wav files, the name of which corresponds with their unique Freesound ID. We split the files using the processing function `freesound_files_into_event_wise_files` provided by the authors ([here](https://github.com/TUT-ARG/TUT_Rare_sound_events_mixture_synthesizer/blob/cdaead58f7c27364626329d7f5d50ebde62713f7/core.py#L84)), thus obtaining several wav files corresponding to isolated sound events.
 
 In **Table 1.a**, we report a list of all the files that were used as registered anomalies to test the memory-based anomalous sound detection methods in [1].
 
