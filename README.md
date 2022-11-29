@@ -1,6 +1,6 @@
 # domestic-ASD-dataset-details
 
-This repository provide additional information on the dataset presented in
+This repository provides additional information on the dataset presented in
 > [1] Alessandro Ilic Mezza, Giulio Zanetti, Maximo Cobos, and Fabio Antonacci, "Zero-Shot Anomalous Sound Detection in Domestic Environments Using Large-Scale Pretrained Audio Pattern Recognition Models," _unpublished_, 2022. 
 
 The dataset contains sound events gathered from two different existing datasets. Acoustic anomalies are taken from the [TUT Rare Sound Events Development](https://zenodo.org/record/401395#.Y4UdDX3MKMo) dataset, and belong to three classes, i.e., “Baby cry,” “Glass break,” and “Gunshot.” As non-anomalous events, we select three classes from the Domestic Environment Sound Event Detection Dataset ([DESED](https://zenodo.org/record/6026841#.Y4UxjX3MKMo)), i.e., “Dog,” “Alarm bell ringing,” and “Electric shaver/Toothbrush.”
@@ -11,7 +11,7 @@ The TUT Rare Sound Events Development dataset contains recordings gathered from 
 
 In **Table 1.a**, we report a list of all the files that were used as registered anomalies to test the memory-based anomalous sound detection methods in [1].
 
-In **Table 1.b**, we report a list of all the files that were discarded from the TUT Rare Sound Events Development dataset for the creation of the dataset described in [1].
+In **Table 1.b**, we report a list of all the files that were discarded from TUT Rare Sound Events Development for the creation of the dataset described in [1].
 
 
 ### Table 1.a
